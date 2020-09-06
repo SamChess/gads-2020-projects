@@ -10,17 +10,17 @@ In this lab, you will learn how to perform the following tasks:
 
 ## Steps to Follow:
 
-1. Create a Compute Engine virtual machine using the Google Cloud Platform (GCP) Console.
+1.Create a Compute Engine virtual machine using the Google Cloud Platform (GCP) Console.
 
     gcloud compute instances create my-vm-1 --zone=us-central1-a --machine-type=e2-medium--image=debian-9-stretch-v20200902 --image-project=debian-cloud --boot-disk-type=pd-standard --tags=http-server 
 
-2. Create a Compute Engine virtual machine using the gcloud command-line interface.
+2.Create a Compute Engine virtual machine using the gcloud command-line interface.
 
     gcloud config set compute/zone us-central1-b
 
     gcloud compute instances create "my-vm-2" --machine-type "n1-standard-1" --image-project "debian-cloud" --image "debian-9-stretch-v20190213" --subnet "default"
 
-3. Connect between the two instances.
+3.Connect between the two instances.
 
     a) Use the ping command to confirm that my-vm-2 can reach my-vm-1 over the network:
      
