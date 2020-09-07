@@ -18,9 +18,9 @@ In this lab, you learn how to perform the following tasks:
 
 2.Create a Cloud Storage bucket using the gsutil command line
 
-    a)Activate Cloud Shell 
+    a) Activate Cloud Shell 
 
-    b)Enter your chosen location into an environment variable called LOCATION
+    b) Enter your chosen location into an environment variable called LOCATION
 
         export LOCATION=US
 
